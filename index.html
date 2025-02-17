@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Portfolio 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+ 
+
+</head>
+<body>
+  <!-- Code Rain Background -->
+  <div class="code-background"></div>
+  
+  <!-- Geometric Shapes -->
+  <div class="geometric-shapes"></div>
+
+  <!-- Main Content -->
+  <div class="main-container">
+    <div class="center-content">
+      <h1>Keivan Morid Zadeh</h1>
+      <p>Software Programmer</p>
+      <p>Computer Science Student @ York University</p>
+    </div>
+
+    <!-- Floating Navigation -->
+    <div class="nav-item nav-about" onclick="showSection('about')">
+      <span>About Me</span>
+    </div>
+    <div class="nav-item nav-skills" onclick="showSection('skills')">
+      <span>Skills</span>
+    </div>
+    <div class="nav-item nav-projects" onclick="showSection('projects')">
+      <span>Projects</span>
+    </div>
+    <div class="nav-item nav-contact" onclick="showSection('contact')">
+      <span>Contact</span>
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div id="about" class="section">
+    <button class="back-btn" onclick="hideSection('about')">← Back</button>
+    <div class="section-content">
+      <h2>About Me</h2>
+      <p>I am a Computer Science student at York University, pursuing my Bachelor's degree. My passion lies in programming and web design, with a particular interest in game development and emerging technologies like machine learning and LLMs.</p>
+      <p>I have a strong foundation in networking, holding both CCNA (obtained December 2022) and Network+ certifications. I'm comfortable working in Linux environments, particularly Ubuntu, which I use as my daily driver.</p>
+      <p>Currently, I'm expanding my knowledge in machine learning and LLMs while building various projects to strengthen my programming skills.</p>
+    </div>
+  </div>
+
+  <div id="skills" class="section">
+    <button class="back-btn" onclick="hideSection('skills')">← Back</button>
+    <div class="section-content">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: Python, Java, JavaScript, basic PHP, C++</li>
+        <li>Game Development: Godot Engine, Python Game Development</li>
+        <li>Web Development: Node.js basics, Laravel basics</li>
+        <li>Networking: CCNA, Network+, VPN protocols (WireGuard, OpenVPN)</li>
+        <li>Cloud & Systems: Basic AWS, Microsoft Server 2012 R2</li>
+        <li>Operating Systems: Linux (Ubuntu), Windows</li>
+        <li>Currently Learning: Machine Learning, LLMs</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="projects" class="section">
+    <button class="back-btn" onclick="hideSection('projects')">← Back</button>
+    <div class="section-content">
+      <h2>Projects</h2>
+      <ul>
+        <li>TrendingCoinsDashboard (Python) - Cryptocurrency tracking application</li>
+        <li>WeatherApp (Python) - Weather information application</li>
+        <li>Vampire-Game (Python) - Interactive game development project</li>
+        <li>SpaceShooter-Game (Python) - Classic arcade-style game</li>
+        <li>Shop Project (PHP) - E-commerce website implementation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="contact" class="section">
+    <button class="back-btn" onclick="hideSection('contact')">← Back</button>
+    <div class="section-content">
+      <h2>Contact</h2>
+      <p>Email: kayvnmoridzadeh@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/keivan-moridzadeh/" style="color: #00fbff;" target="_blank">LinkedIn Profile</a></p>
+      <p>GitHub: <a href="https://github.com/KeivanMoridZadeh?tab=repositories" style="color: #00fbff;" target="_blank">GitHub Repositories</a></p>
+    </div>
+  </div>
+
+ 
+  <script src="script.js" defer></script>
+
+</body>
+</html>
