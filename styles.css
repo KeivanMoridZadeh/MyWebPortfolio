@@ -335,7 +335,7 @@
       }
 
       .center-content {
-        width: 95%;
+        width: 100%;
         padding: 20px;
       }
 
@@ -344,7 +344,7 @@
       }
 
       .center-content p {
-        font-size: 1em;
+        font-size: 0.9em;
       }
 
       .nav-about {
@@ -402,7 +402,7 @@
       }
 
       .nav-item {
-        padding: 10px 15px;
+        padding: 101px 15px;
       }
 
       .nav-item span {
