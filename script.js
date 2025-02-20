@@ -24,7 +24,9 @@ window.onload = function () {
   ];
 
   // Create more code lines for a denser effect
-  for (let i = 0; i < 100; i++) {
+  const numberOfLines = window.innerWidth <= 480 ? 30 : 100;
+
+  for (let i = 0; i < numberOfLines; i++) {
     const line = document.createElement("div");
     line.className = "code-line";
     line.textContent =
@@ -37,7 +39,9 @@ window.onload = function () {
 
   // Add geometric shapes
   const geoShapes = document.querySelector(".geometric-shapes");
-  for (let i = 0; i < 5; i++) {
+  const numberOfShapes = window.innerWidth <= 480 ? 3 : 5;
+
+  for (let i = 0; i < numberOfShapes; i++) {
     const shape = document.createElement("div");
     shape.className = "geo-shape";
     shape.style.width = `${Math.random() * 300 + 100}px`;
