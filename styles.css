@@ -348,22 +348,22 @@
       }
 
       .nav-about {
-        top: 50%;
+        top: 30%;
         left: 5%;
       }
 
       .nav-skills {
-        top: 50%;
+        top: 30%;
         right: 5%;
       }
 
       .nav-projects {
-        bottom: 15%;
+        bottom: 35%;
         right: 5%;
       }
 
       .nav-contact {
-        bottom: 15%;
+        bottom: 35%;
         left: 5%;
       }
 
